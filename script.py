@@ -82,7 +82,7 @@ def response(flow):
                     info["post_time"] = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
                     video_id = ware_info['id']
                     info["video_url"] = f'https://h5.m.jd.com/active/faxian/video/index.html?id={video_id}'
-                    info['keyword'] = keyword
+                    info['key_word'] = keyword
                     # jd_keyword.insert(info)
                     table_name = "jd_keyword"
                     cols = ", ".join('`{}`'.format(k) for k in info.keys())
@@ -112,6 +112,7 @@ def response(flow):
     #         info['page_view'] = ware_info['pageView']
     #         info['sku'] = ware_info['sku']
     #         info['j_id'] = ware_info['id']
+    #         info['key_word'] = keyword
     #         table_name = "jd_find_goods"
     #         cols = ", ".join('`{}`'.format(k) for k in info.keys())
     #         placeholders = ', '.join('%({})s'.format(k) for k in info.keys())

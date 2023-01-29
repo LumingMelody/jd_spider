@@ -66,5 +66,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-    wb.save(r'./jd_category1.xlsx')
+    wb.save(r'./data/jd_三菱_category.xlsx')
 

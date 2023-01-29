@@ -145,7 +145,7 @@ def get_data():
                     content7daysCwOrdAmount, content7daysCwOrdUsers, content15daysPntCwOrdNum, content15daysCwOrdNum,
                     content15daysCwOrdgoods, content15daysCwOrdAmount, content15daysCwOrdUsers
                 ])
-    wb.save(rf"./data/jd_live_08_15.xlsx")
+    wb.save(rf"./data/jd_live_10_20.xlsx")
 
 
 if __name__ == '__main__':

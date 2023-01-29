@@ -43,7 +43,7 @@ class Run(object):
         # print(cookies)
         cookie = ''
         for i in cookies:
-            if i['name'] == '__jdv' or i['name'] == '__jdu':
+            if i['name'] == '__jdu' or i['name'] == '__jdv' or i['name'] == '__jda' or i['name'] == '__jdc' or i['name'] == '__jdb':
                 c = i['name'] + '=' + i['value'] + ';'
                 cookie += c
         print(cookie)

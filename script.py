@@ -12,8 +12,8 @@ from pymysql import *
 
 # get_keyword = Blueprint('get_keyword', strict_slashes=True)
 
-conn = connect(host='rm-uf664y8bsz73u37odio.mysql.rds.aliyuncs.com', port=3306, database='dts_prod', user='luming',
-               password='Luming1314', charset='utf8')
+conn = connect(host='', port=3306, database='dts_prod', user='luming',
+               password='', charset='utf8')
 cursor = conn.cursor()
 
 
